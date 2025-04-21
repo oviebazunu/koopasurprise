@@ -1,12 +1,25 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import "../stylesheet/Homepage.css";
 
 const Homepage = () => {
+  const homepageRef = useRef(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    // Trigger fade-in on mount
+    setVisible(true);
+  }, []);
+
   return (
     <div id="homepage">
       <div className="homepage-wrapper">
-        <div className="homepage-container">
+        <div
+          ref={homepageRef}
+          className={`homepage-container fade-in-section ${
+            visible ? "is-visible" : ""
+          }`}
+        >
           <div className="image-container">
             <img
               src="/images/image1.jpg"
