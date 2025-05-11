@@ -30,6 +30,9 @@ const Firstdate = () => {
   return (
     <section id="firstdate" className="main-wrapper">
       <div className="main-container">
+        <div>
+          <h1>First Date</h1>
+        </div>
         <div
           className="fade-in-section row"
           ref={(el) => (sectionRefs.current[0] = el)}
@@ -49,19 +52,19 @@ const Firstdate = () => {
         </div>
 
         <div
-          className="fade-in-section row"
+          className="fade-in-section row reverse"
           ref={(el) => (sectionRefs.current[1] = el)}
         >
-          <span className="text-box">
-            This was a special moment. Even though it was early, it meant a lot
-            to me. Thank you for always making me smile
-          </span>
           <span>
             <img
-              src="/images/image4.jpg"
+              src="/images/image14.jpg"
               alt="Image 4"
               className="custom-main-image"
             />
+          </span>
+          <span className="text-box">
+            This was a special moment. Even though it was early, it meant a lot
+            to me. Thank you for always making me smile
           </span>
         </div>
       </div>

@@ -41,6 +41,13 @@
   box-shadow: 0 0 10px #84643d88;
 }
 
+.timeline-date {
+  position: absolute;
+  text-align: right;
+  width: 140px;
+  top: 0px;
+}
+
 /* Desktop + tablet (vertical left sidebar) */
 @media (min-width: 768px) {
   .sidebar {
@@ -103,5 +110,14 @@
     height: 2px;
     background-color: #2d1e2f;
     transform: translateY(-50%);
+  }
+
+  .timeline-date {
+    transform: rotate(30deg);
+    transform-origin: top left;
+    top: 40px;
+    left: 10px;
+    font-size: 0.7rem;
+    white-space: nowrap;
   }
 }

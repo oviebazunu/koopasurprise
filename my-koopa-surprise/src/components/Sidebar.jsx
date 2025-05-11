@@ -26,22 +26,23 @@ const Sidebar = () => {
   }, []);
 
   const icons = [
-    { id: "homepage" },
-    { id: "firstdate" },
-    { id: "football" },
-    { id: "holland" },
-    { id: "ikea" },
+    { id: "homepage", date: "22/05/2025" },
+    { id: "firstdate", date: "22/04/2023" },
+    { id: "football", date: "22/04/2023" },
+    { id: "holland", date: "22/04/2023" },
+    { id: "ikea", date: "22/04/2023" },
   ];
 
   return (
     <div className="sidebar">
       <ul className="timeline no-default-style">
-        {icons.map(({ id }) => (
+        {icons.map(({ id, date }) => (
           <li
             key={id}
             className={`timeline-item ${activeSection === id ? "active" : ""}`}
           >
             <a href={`#${id}`} className="timeline-dot"></a>
+            <span className="timeline-date">- {date}</span>
           </li>
         ))}
       </ul>

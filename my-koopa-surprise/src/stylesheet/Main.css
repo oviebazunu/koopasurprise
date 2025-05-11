@@ -26,6 +26,10 @@
   gap: 3rem;
 }
 
+.reverse {
+  flex-direction: row-reverse;
+}
+
 /* Image container styling */
 .image-container {
   display: flex;
@@ -68,13 +72,19 @@
 }
 
 @media (max-width: 768px) {
-  .row {
+  .row,
+  .reverse {
     flex-direction: column;
     text-align: center;
   }
 
   .custom-main-image {
-    width: 100%;
-    max-width: 20rem;
+    max-width: 10rem;
+    max-height: 10rem;
+  }
+
+  .text-box {
+    width: 350px;
+    padding: 0px 0px 40px 0px;
   }
 }
