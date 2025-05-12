@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "../../stylesheet/Main.css";
 
-const Firstdate = () => {
+const OutLeicester1 = () => {
   const sectionRefs = useRef([]);
 
   useEffect(() => {
@@ -28,10 +28,10 @@ const Firstdate = () => {
   }, []);
 
   return (
-    <section id="firstdate" className="main-wrapper">
+    <section id="outleicester1" className="main-wrapper">
       <div className="main-container">
         <div>
-          <h1>First Date</h1>
+          <h1>Out and about in Leicester</h1>
         </div>
         <div
           className="fade-in-section row"
@@ -39,18 +39,22 @@ const Firstdate = () => {
         >
           <span>
             <img
-              src="/images/image12.jpg"
+              src="/images/image16-escaperoom1.jpg"
               alt="Image 1"
               className="custom-main-image"
             />
           </span>
-
           <div className="text-box">
-            <span>April-2023</span>
+            <span>May-2023</span>
             <span>
-              I know we had just started talking to each other but I'm glad it
-              didn’t end here. Honestly, I’m so glad to have you in my life and
-              I thought this deserved an honourable mention :)
+              Believe it or not we actually went to the escape room the first
+              time this day. I cant lie though we were pretty terrible however
+              doing it with you makes it worth it.
+            </span>
+            <span style={{ paddingTop: "0.5em" }}>
+              Im sorry for how the last one went, I promise we will go again and
+              it will be just as fun as the first time. Maybe we should go in
+              London :D
             </span>
           </div>
         </div>
@@ -61,25 +65,18 @@ const Firstdate = () => {
         >
           <span>
             <img
-              src="/images/image14.jpg"
+              src="/images/image15-jenga.jpg"
               alt="Image 4"
               className="custom-main-image"
             />
           </span>
           <div className="text-box">
-            <span>
-              This was funny because I remember telling my coworkers about how
-              bad our first meeting was and how I really wanted to impress you.
-              They came in clutch and provided us the tickets to the game.
-            </span>
+            <span>June-2023</span>
             <span style={{ paddingTop: "0.5em" }}>
-              I know its the only time you enjoyed football and it was jokes
-              because you had no idea really what to expect since it was such a
-              random event.
-            </span>
-            <span style={{ paddingTop: "0.5em" }}>
-              It was fun going with you and we should try do it again sometime
-              maybe :p
+              This an artefact now, sad we will never be able to go to this
+              place again it was such as nice and cozy cafe. You also beat me at
+              snakes and ladders as well as Jenga. Clearly you have always been
+              a gamer girl XD
             </span>
           </div>
         </div>
@@ -88,4 +85,4 @@ const Firstdate = () => {
   );
 };
 
-export default Firstdate;
+export default OutLeicester1;

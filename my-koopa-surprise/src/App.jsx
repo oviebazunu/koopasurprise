@@ -3,6 +3,7 @@ import "./App.css";
 import Homepage from "./components/Homepage";
 import Sidebar from "./components/Sidebar";
 import Firstdate from "./assets/data/firstdate";
+import OutLeicester1 from "./assets/data/OutLeicester1";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Sidebar />
       <Homepage />
       <Firstdate />
+      <OutLeicester1 />
     </div>
   );
 }
