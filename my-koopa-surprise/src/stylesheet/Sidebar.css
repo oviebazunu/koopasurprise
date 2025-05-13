@@ -6,7 +6,8 @@
 /* Remove bullet defaults */
 .no-default-style {
   list-style: none;
-  margin: 0;
+  margin-top: 10px;
+  margin-right: 400px;
   padding: 0;
 }
 
@@ -64,8 +65,10 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    justify-content: flex-start;
     padding-left: 1.75rem;
     gap: 4.5rem;
+    width: max-content;
   }
 
   .timeline::before {
@@ -77,6 +80,17 @@
     width: 2px;
     background-color: #2d1e2f;
   }
+
+  .scroll-container {
+    overflow-y: auto;
+    max-height: 500px;
+    padding-right: 2rem;
+    position: relative;
+  }
+
+  .scroll-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
 }
 
 /* Mobile (horizontal bottom) */
@@ -85,21 +99,25 @@
     position: fixed;
     bottom: 0;
     left: 0;
+    margin-top: 20px;
     width: 100%;
     padding: 1rem 0;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.19);
+
     display: flex;
     justify-content: center;
+    overflow-x: auto;
   }
 
   .timeline {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 3rem;
+    gap: 2.5rem;
+    margin: 5px 0px 5px 10px;
     position: relative;
-    width: 100%;
+    width: max-content;
   }
 
   .timeline::before {
@@ -120,5 +138,27 @@
     left: 10px;
     font-size: 0.7rem;
     white-space: nowrap;
+  }
+
+  .timeline-dot {
+    width: 15px;
+    height: 15px;
+  }
+
+  .timeline-item.active .timeline-dot {
+    background-color: white;
+    border: 2px solid #84643d;
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #84643d88;
+  }
+
+  .scroll-container {
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+  }
+
+  .scroll-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
   }
 }
