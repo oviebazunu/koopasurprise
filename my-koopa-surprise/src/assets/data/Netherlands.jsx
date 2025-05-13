@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "../../stylesheet/Main.css";
 
-const Firstdate = () => {
+const Netherlands = () => {
   const sectionRefs = useRef([]);
 
   useEffect(() => {
@@ -28,10 +28,10 @@ const Firstdate = () => {
   }, []);
 
   return (
-    <section id="firstdate" className="main-wrapper">
+    <section id="netherlands" className="main-wrapper">
       <div className="main-container">
         <div>
-          <h1>First Date</h1>
+          <h1>Netherlands - First Holiday Abroad &#128747;</h1>
         </div>
         <div
           className="fade-in-section row"
@@ -39,19 +39,19 @@ const Firstdate = () => {
         >
           <span>
             <img
-              src="/images/image12.jpg"
-              alt="Image 1"
+              src="/images/image9-netherlandscafe.jpg"
+              alt="Netherlands"
               className="custom-main-image"
             />
           </span>
-
           <div className="text-box">
-            <span>April-2023</span>
+            <span>November-2023</span>
             <span style={{ paddingTop: "0.75em" }}>
-              I know we had just started talking to each other but I'm glad it
-              didn’t end here. Honestly, I’m so glad to have you in my life and
-              I thought this deserved an honourable mention &#128518;
+              First day in netherlands we found a hybrid gym cafe? It was really
+              funny looking. But at least the coffee and you looked real good
+              &#128064;
             </span>
+            <span style={{ paddingTop: "0.75em" }}>placement text</span>
           </div>
         </div>
 
@@ -61,26 +61,13 @@ const Firstdate = () => {
         >
           <span>
             <img
-              src="/images/image14.jpg"
-              alt="Image 4"
+              src="/images/placement text.jpg"
+              alt="Churro Photo"
               className="custom-main-image"
             />
           </span>
           <div className="text-box">
-            <span>
-              This was funny because I remember telling my coworkers about how
-              bad our first meeting was and how I really wanted to impress you.
-              They came in clutch and provided us the tickets to the game.
-            </span>
-            <span style={{ paddingTop: "0.75em" }}>
-              I know its the only time you enjoyed football and it was jokes
-              because you had no idea really what to expect since it was such a
-              random event.
-            </span>
-            <span style={{ paddingTop: "0.75em" }}>
-              It was fun going with you and we should try do it again sometime
-              maybe &#128540;
-            </span>
+            <span>placement text</span>
           </div>
         </div>
       </div>
@@ -88,4 +75,4 @@ const Firstdate = () => {
   );
 };
 
-export default Firstdate;
+export default Netherlands;

@@ -7,6 +7,7 @@ import OutLeicester1 from "./assets/data/OutLeicester1";
 import OutManchester1 from "./assets/data/OutManchester1";
 import Halloween from "./assets/data/Halloween";
 import OutManchester2 from "./assets/data/OutManchester2";
+import Netherlands from "./assets/data/Netherlands";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <OutManchester2 />
       <OutManchester1 />
       <Halloween />
+      <Netherlands />
     </div>
   );
 }

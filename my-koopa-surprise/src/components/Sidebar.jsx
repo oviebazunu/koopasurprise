@@ -8,7 +8,7 @@ const sections = [
   "outmanchester2",
   "outmanchester1",
   "halloween",
-  "halloween1",
+  "netherlands",
 ];
 
 const Sidebar = () => {
@@ -40,7 +40,7 @@ const Sidebar = () => {
     { id: "outmanchester2", date: "01/07/2023" },
     { id: "outmanchester1", date: "18/07/2023" },
     { id: "halloween", date: "27/10/2023" },
-    { id: "halloween1", date: "27/10/2023" },
+    { id: "netherlands", date: "11/11/2023" },
     { id: "halloween2", date: "27/10/2023" },
     { id: "halloween3", date: "27/10/2023" },
   ];

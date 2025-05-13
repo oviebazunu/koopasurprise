@@ -53,7 +53,7 @@ const Homepage = () => {
                 repeat={Infinity}
               />
             </h1>
-            <h2>I hope you enjoyed it :) - 22/05/2025</h2>
+            <h2>I hope you enjoyed it!!! - 22/05/2025</h2>
           </div>
         </div>
       </div>

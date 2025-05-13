@@ -54,7 +54,7 @@ const OutLeicester1 = () => {
             <span style={{ paddingTop: "0.75em" }}>
               Im sorry for how the last one went, I promise we will go again and
               it will be just as fun as the first time. Maybe we should go in
-              London :D
+              London &#128513;
             </span>
           </div>
         </div>
@@ -76,7 +76,7 @@ const OutLeicester1 = () => {
               This an artefact now, sad we will never be able to go to this
               place again it was such as nice and cozy cafe. You also beat me at
               snakes and ladders as well as Jenga. Clearly you have always been
-              a gamer girl XD
+              a gamer girl &#128518;
             </span>
           </div>
         </div>
