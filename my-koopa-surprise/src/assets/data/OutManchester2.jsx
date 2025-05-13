@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "../../stylesheet/Main.css";
 
-const Halloween = () => {
+const OutManchester2 = () => {
   const sectionRefs = useRef([]);
 
   useEffect(() => {
@@ -28,10 +28,10 @@ const Halloween = () => {
   }, []);
 
   return (
-    <section id="halloween" className="main-wrapper">
+    <section id="outmanchester2" className="main-wrapper">
       <div className="main-container">
         <div>
-          <h1>Halloween with a foodie!</h1>
+          <h1>Yayoi Kusama - Exhibit</h1>
         </div>
         <div
           className="fade-in-section"
@@ -39,25 +39,25 @@ const Halloween = () => {
         >
           <div className="image-container">
             <img
-              src="/images/image6-kbcoventry.jpg"
-              alt="KB Coventry"
+              src="/images/image20-togetheryellow.jpg"
+              alt="together yellow"
               className="custom-img"
             />
             <img
-              src="/images/image18-halloween.jpg"
-              alt="Halloween"
+              src="/images/image21-togetherpink.jpg"
+              alt="together pink"
               className="custom-img"
             />
           </div>
           <div className="image-container">
             <img
-              src="/images/image10-publics.jpg"
-              alt="publics"
+              src="/images/image22-togetherdinner.jpg"
+              alt="together dinner"
               className="custom-img"
             />
             <img
-              src="/images/image17-baobao.jpg"
-              alt="baobao"
+              src="/images/image23-statue.jpg"
+              alt="statue"
               className="custom-img"
             />
           </div>
@@ -67,4 +67,4 @@ const Halloween = () => {
   );
 };
 
-export default Halloween;
+export default OutManchester2;

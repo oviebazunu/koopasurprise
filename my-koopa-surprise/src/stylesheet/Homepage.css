@@ -67,8 +67,8 @@ h2 {
   opacity: 0;
   transform: translateY(40px);
   transition:
-    opacity 0.8s ease-out,
-    transform 0.8s ease-out;
+    opacity 0.8s ease-in-out,
+    transform 0.8s ease-in-out;
 }
 
 .fade-in-section.is-visible {

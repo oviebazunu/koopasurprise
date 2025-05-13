@@ -65,7 +65,7 @@ const OutManchester1 = () => {
         >
           <span>
             <img
-              src="/images/image18.jpg"
+              src="/images/image19-churro.jpg"
               alt="Churro Photo"
               className="custom-main-image"
             />
