@@ -46,12 +46,12 @@ const OutLeicester1 = () => {
           </span>
           <div className="text-box">
             <span>May-2023</span>
-            <span>
+            <span style={{ paddingTop: "0.75em" }}>
               Believe it or not we actually went to the escape room the first
               time this day. I cant lie though we were pretty terrible however
               doing it with you makes it worth it.
             </span>
-            <span style={{ paddingTop: "0.5em" }}>
+            <span style={{ paddingTop: "0.75em" }}>
               Im sorry for how the last one went, I promise we will go again and
               it will be just as fun as the first time. Maybe we should go in
               London :D
@@ -72,7 +72,7 @@ const OutLeicester1 = () => {
           </span>
           <div className="text-box">
             <span>June-2023</span>
-            <span style={{ paddingTop: "0.5em" }}>
+            <span style={{ paddingTop: "0.75em" }}>
               This an artefact now, sad we will never be able to go to this
               place again it was such as nice and cozy cafe. You also beat me at
               snakes and ladders as well as Jenga. Clearly you have always been

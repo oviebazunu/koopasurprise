@@ -5,6 +5,7 @@ import Sidebar from "./components/Sidebar";
 import Firstdate from "./assets/data/firstdate";
 import OutLeicester1 from "./assets/data/OutLeicester1";
 import OutManchester1 from "./assets/data/OutManchester1";
+import Halloween from "./assets/data/Halloween";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Homepage />
       <Firstdate />
       <OutLeicester1 />
-      <OutManchester1/>
+      <OutManchester1 />
+      <Halloween />
     </div>
   );
 }

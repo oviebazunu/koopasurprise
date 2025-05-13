@@ -6,7 +6,8 @@ const sections = [
   "firstdate",
   "outleicester1",
   "outmanchester1",
-  "ikea",
+  "halloween",
+  "halloween1",
 ];
 
 const Sidebar = () => {

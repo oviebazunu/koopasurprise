@@ -46,12 +46,12 @@ const OutManchester1 = () => {
           </span>
           <div className="text-box">
             <span>August-2023</span>
-            <span>
+            <span style={{ paddingTop: "0.75em" }}>
               The cube was so fun with you, this is when we really got into
               matching clothes and I can't believe we pulled of the win in the
               end. Top tier teamwork from us.
             </span>
-            <span style={{ paddingTop: "0.5em" }}>
+            <span style={{ paddingTop: "0.75em" }}>
               The food man this is when I knew you were a foodie, It was so good
               Ive got a picture of you starring at the food quite alot its
               actually relly funny. I think you will spot it soon.

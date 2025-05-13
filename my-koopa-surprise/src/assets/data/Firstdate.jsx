@@ -47,7 +47,7 @@ const Firstdate = () => {
 
           <div className="text-box">
             <span>April-2023</span>
-            <span>
+            <span style={{ paddingTop: "0.75em" }}>
               I know we had just started talking to each other but I'm glad it
               didn’t end here. Honestly, I’m so glad to have you in my life and
               I thought this deserved an honourable mention :)
@@ -72,12 +72,12 @@ const Firstdate = () => {
               bad our first meeting was and how I really wanted to impress you.
               They came in clutch and provided us the tickets to the game.
             </span>
-            <span style={{ paddingTop: "0.5em" }}>
+            <span style={{ paddingTop: "0.75em" }}>
               I know its the only time you enjoyed football and it was jokes
               because you had no idea really what to expect since it was such a
               random event.
             </span>
-            <span style={{ paddingTop: "0.5em" }}>
+            <span style={{ paddingTop: "0.75em" }}>
               It was fun going with you and we should try do it again sometime
               maybe :p
             </span>

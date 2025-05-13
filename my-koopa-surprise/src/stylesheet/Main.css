@@ -23,7 +23,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
 }
 
 .reverse {
@@ -49,6 +49,7 @@
 .custom-main-image {
   width: 20rem; /* Smaller default size */
   height: 20rem;
+  margin: 1rem;
   object-fit: cover;
   border-radius: 0.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -63,7 +64,9 @@
 .fade-in-section {
   opacity: 0;
   transform: translateY(40px);
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  transition:
+    opacity 0.8s ease-out,
+    transform 0.8s ease-out;
 }
 
 .fade-in-section.is-visible {
