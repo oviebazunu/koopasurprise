@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../stylesheet/Sidebar.css";
 
-const sections = ["homepage", "firstdate", "outleicester1", "holland", "ikea"];
+const sections = ["homepage", "firstdate", "outleicester1", "outmanchester1", "ikea"];
 
 const Sidebar = () => {
   const [activeSection, setActiveSection] = useState("");
@@ -29,7 +29,7 @@ const Sidebar = () => {
     { id: "homepage", date: "22/05/2025" },
     { id: "firstdate", date: "22/04/2023" },
     { id: "outleicester1", date: "27/05/2023" },
-    { id: "holland", date: "22/04/2023" },
+    { id: "outmanchester1", date: "18/07/2023" },
     { id: "ikea", date: "22/04/2023" },
   ];
 
