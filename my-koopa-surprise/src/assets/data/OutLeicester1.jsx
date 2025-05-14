@@ -39,7 +39,7 @@ const OutLeicester1 = () => {
         >
           <span>
             <img
-              src="/images/image16-escaperoom1.jpg"
+              src="/images/escaperoom1.jpg"
               alt="Image 1"
               className="custom-main-image"
             />
@@ -65,7 +65,7 @@ const OutLeicester1 = () => {
         >
           <span>
             <img
-              src="/images/image15-jenga.jpg"
+              src="/images/jenga.jpg"
               alt="Image 4"
               className="custom-main-image"
             />

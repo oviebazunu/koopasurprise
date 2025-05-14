@@ -39,27 +39,23 @@ const Halloween = () => {
         >
           <div className="image-container">
             <img
-              src="/images/image6-kbcoventry.jpg"
+              src="/images/kbcoventry.jpg"
               alt="KB Coventry"
               className="custom-img"
             />
             <img
-              src="/images/image18-halloween.jpg"
+              src="/images/halloween.jpg"
               alt="Halloween"
               className="custom-img"
             />
           </div>
           <div className="image-container">
             <img
-              src="/images/image10-publics.jpg"
+              src="/images/publics.jpg"
               alt="publics"
               className="custom-img"
             />
-            <img
-              src="/images/image17-baobao.jpg"
-              alt="baobao"
-              className="custom-img"
-            />
+            <img src="/images/baobao.jpg" alt="baobao" className="custom-img" />
           </div>
         </div>
       </div>

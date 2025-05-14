@@ -39,7 +39,7 @@ const Netherlands = () => {
         >
           <span>
             <img
-              src="/images/image9-netherlandscafe.jpg"
+              src="/images/netherlandscafe.jpg"
               alt="Netherlands"
               className="custom-main-image"
             />
@@ -60,8 +60,8 @@ const Netherlands = () => {
         >
           <span>
             <img
-              src="/images/image8.jpg"
-              alt="Churro Photo"
+              src="/images/museum.jpg"
+              alt="Museum"
               className="custom-main-image"
             />
           </span>
@@ -77,7 +77,7 @@ const Netherlands = () => {
         </div>
 
         <div>
-          <h1>Netherlands - First Holiday Abroad &#128747;</h1>
+          <h1>Rijksmuseum</h1>
         </div>
         <div
           className="fade-in-section"
@@ -85,27 +85,19 @@ const Netherlands = () => {
         >
           <div className="image-container">
             <img
-              src="/images/image6-k.jpg"
-              alt="KB Coventry"
+              src="/images/bridge.jpg"
+              alt="Amsterdam Bridge"
               className="custom-img"
             />
-            <img
-              src="/images/image18-haln.jpg"
-              alt="Halloween"
-              className="custom-img"
-            />
+            <img src="/images/jacket.jpg" alt="jacket" className="custom-img" />
           </div>
           <div className="image-container">
             <img
-              src="/images/image10-puics.jpg"
-              alt="publics"
+              src="/images/elevator.jpg"
+              alt="elevator"
               className="custom-img"
             />
-            <img
-              src="/images/image17-bao.jpg"
-              alt="baobao"
-              className="custom-img"
-            />
+            <img src="/images/pirate.jpg" alt="pirate" className="custom-img" />
           </div>
         </div>
       </div>

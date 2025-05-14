@@ -39,27 +39,23 @@ const OutManchester1 = () => {
         >
           <div className="image-container">
             <img
-              src="/images/image20-togetheryellow.jpg"
+              src="/images/togetheryellow.jpg"
               alt="together yellow"
               className="custom-img"
             />
             <img
-              src="/images/image21-togetherpink.jpg"
+              src="/images/togetherpink.jpg"
               alt="together pink"
               className="custom-img"
             />
           </div>
           <div className="image-container">
             <img
-              src="/images/image22-togetherdinner.jpg"
+              src="/images/togetherdinner.jpg"
               alt="together dinner"
               className="custom-img"
             />
-            <img
-              src="/images/image23-statue.jpg"
-              alt="statue"
-              className="custom-img"
-            />
+            <img src="/images/statue.jpg" alt="statue" className="custom-img" />
           </div>
         </div>
         <div>
@@ -97,7 +93,7 @@ const OutManchester1 = () => {
         >
           <span>
             <img
-              src="/images/image19-churro.jpg"
+              src="/images/churro.jpg"
               alt="Churro Photo"
               className="custom-main-image"
             />
