@@ -39,11 +39,18 @@
   margin-bottom: 1.5rem;
 }
 
+div.text-box {
+  padding: 20px;
+  border: #5e360b solid 2px;
+}
+
 .text-box {
   display: flex;
   flex-direction: column;
   position: relative;
   width: 500px;
+  background-color: #84643d;
+  border-radius: 10px;
 }
 
 .custom-main-image {
@@ -52,6 +59,7 @@
   margin: 1rem;
   object-fit: cover;
   border-radius: 0.5rem;
+  border: #5e360b solid 2px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: block;
 }
@@ -89,5 +97,9 @@
   .text-box {
     width: 350px;
     padding: 0px 0px 40px 0px;
+  }
+
+  div.text-box {
+    padding: 10px;
   }
 }
