@@ -45,6 +45,7 @@
 .timeline-date {
   position: absolute;
   color: whitesmoke;
+  display: inline-block;
   text-align: right;
   width: 140px;
   top: 0px;
@@ -132,12 +133,7 @@
   }
 
   .timeline-date {
-    transform: rotate(30deg);
-    transform-origin: top left;
-    top: 40px;
-    left: 10px;
-    font-size: 0.7rem;
-    white-space: nowrap;
+    display: none;
   }
 
   .timeline-dot {

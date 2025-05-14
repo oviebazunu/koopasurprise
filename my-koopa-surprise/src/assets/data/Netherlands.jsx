@@ -92,11 +92,7 @@ const Netherlands = () => {
             <img src="/images/jacket.jpg" alt="jacket" className="custom-img" />
           </div>
           <div className="image-container">
-            <img
-              src="/images/elevator.jpg"
-              alt="elevator"
-              className="custom-img"
-            />
+            <img src="/images/horse.jpg" alt="horsey" className="custom-img" />
             <img src="/images/pirate.jpg" alt="pirate" className="custom-img" />
           </div>
         </div>

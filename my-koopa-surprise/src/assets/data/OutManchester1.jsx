@@ -67,7 +67,7 @@ const OutManchester1 = () => {
         >
           <span>
             <img
-              src="/images/image17.jpg"
+              src="/images/cube.jpg"
               alt="The cube image goes here"
               className="custom-main-image"
             />
@@ -80,9 +80,9 @@ const OutManchester1 = () => {
               end. Top tier teamwork from us.
             </span>
             <span style={{ paddingTop: "0.75em" }}>
-              The food man this is when I knew you were a foodie, It was so good
-              Ive got a picture of you starring at the food quite alot its
-              actually relly funny. I think you will spot it soon.
+              The food man &#129316;! This is when I knew you were a foodie, It
+              was so good Ive got a picture of you starring at the food quite
+              alot its actually relly funny. I think you will spot it soon.
             </span>
           </div>
         </div>
