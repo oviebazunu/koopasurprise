@@ -5,7 +5,6 @@ const sections = [
   "homepage",
   "firstdate",
   "outleicester1",
-  "outmanchester2",
   "outmanchester1",
   "halloween",
   "netherlands",
@@ -22,7 +21,7 @@ const Sidebar = () => {
           setActiveSection(visible.target.id);
         }
       },
-      { threshold: 0.5 }
+      { threshold: 0.1 }
     );
 
     sections.forEach((id) => {
@@ -34,13 +33,12 @@ const Sidebar = () => {
   }, []);
 
   const icons = [
-    { id: "homepage", date: "22/05/2025" },
-    { id: "firstdate", date: "22/04/2023" },
-    { id: "outleicester1", date: "27/05/2023" },
-    { id: "outmanchester2", date: "01/07/2023" },
-    { id: "outmanchester1", date: "18/07/2023" },
-    { id: "halloween", date: "27/10/2023" },
-    { id: "netherlands", date: "11/11/2023" },
+    { id: "homepage", date: "May 2025" },
+    { id: "firstdate", date: "April 2023" },
+    { id: "outleicester1", date: " May 2023" },
+    { id: "outmanchester1", date: "Aug 2023" },
+    { id: "halloween", date: "Oct 2023" },
+    { id: "netherlands", date: "Sep 2023" },
     { id: "halloween2", date: "27/10/2023" },
     { id: "halloween3", date: "27/10/2023" },
   ];

@@ -13,7 +13,7 @@ const OutManchester1 = () => {
           }
         });
       },
-      { threshold: 0.2 }
+      { threshold: 0.9 }
     );
 
     sectionRefs.current.forEach((ref) => {
@@ -31,11 +31,43 @@ const OutManchester1 = () => {
     <section id="outmanchester1" className="main-wrapper">
       <div className="main-container">
         <div>
+          <h1>Yayoi Kusama - Exhibit</h1>
+        </div>
+        <div
+          className="fade-in-section"
+          ref={(el) => (sectionRefs.current[0] = el)}
+        >
+          <div className="image-container">
+            <img
+              src="/images/image20-togetheryellow.jpg"
+              alt="together yellow"
+              className="custom-img"
+            />
+            <img
+              src="/images/image21-togetherpink.jpg"
+              alt="together pink"
+              className="custom-img"
+            />
+          </div>
+          <div className="image-container">
+            <img
+              src="/images/image22-togetherdinner.jpg"
+              alt="together dinner"
+              className="custom-img"
+            />
+            <img
+              src="/images/image23-statue.jpg"
+              alt="statue"
+              className="custom-img"
+            />
+          </div>
+        </div>
+        <div>
           <h1>The Cube with Dinner!</h1>
         </div>
         <div
           className="fade-in-section row"
-          ref={(el) => (sectionRefs.current[0] = el)}
+          ref={(el) => (sectionRefs.current[1] = el)}
         >
           <span>
             <img
@@ -61,7 +93,7 @@ const OutManchester1 = () => {
 
         <div
           className="fade-in-section row reverse"
-          ref={(el) => (sectionRefs.current[1] = el)}
+          ref={(el) => (sectionRefs.current[2] = el)}
         >
           <span>
             <img

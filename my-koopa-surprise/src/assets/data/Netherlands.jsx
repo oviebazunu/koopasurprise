@@ -13,7 +13,7 @@ const Netherlands = () => {
           }
         });
       },
-      { threshold: 0.2 }
+      { threshold: 0.01 }
     );
 
     sectionRefs.current.forEach((ref) => {
@@ -51,7 +51,6 @@ const Netherlands = () => {
               funny looking. But at least the coffee and you looked real good
               &#128064;
             </span>
-            <span style={{ paddingTop: "0.75em" }}>placement text</span>
           </div>
         </div>
 
@@ -61,13 +60,52 @@ const Netherlands = () => {
         >
           <span>
             <img
-              src="/images/placement text.jpg"
+              src="/images/image8.jpg"
               alt="Churro Photo"
               className="custom-main-image"
             />
           </span>
           <div className="text-box">
-            <span>placement text</span>
+            <span>
+              On the second day we went to a couple museums and you even took me
+              redlight district I cant believe you did that XD. Honestly weekend
+              trips are fun once you have finished up with your exams we need to
+              try going again on a couple. Where do you think we should go
+              Greece or Spain?
+            </span>
+          </div>
+        </div>
+
+        <div>
+          <h1>Netherlands - First Holiday Abroad &#128747;</h1>
+        </div>
+        <div
+          className="fade-in-section"
+          ref={(el) => (sectionRefs.current[2] = el)}
+        >
+          <div className="image-container">
+            <img
+              src="/images/image6-k.jpg"
+              alt="KB Coventry"
+              className="custom-img"
+            />
+            <img
+              src="/images/image18-haln.jpg"
+              alt="Halloween"
+              className="custom-img"
+            />
+          </div>
+          <div className="image-container">
+            <img
+              src="/images/image10-puics.jpg"
+              alt="publics"
+              className="custom-img"
+            />
+            <img
+              src="/images/image17-bao.jpg"
+              alt="baobao"
+              className="custom-img"
+            />
           </div>
         </div>
       </div>
