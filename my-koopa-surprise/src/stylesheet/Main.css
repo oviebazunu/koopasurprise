@@ -95,8 +95,12 @@ div.text-box {
     max-height: 10rem;
   }
 
+  img.custom-img {
+    max-width: 9rem;
+  }
+
   .text-box {
-    width: 350px;
+    width: 300px;
     padding: 0px 0px 40px 0px;
   }
 
