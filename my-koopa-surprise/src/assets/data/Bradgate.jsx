@@ -47,7 +47,11 @@ const Bradgate = () => {
 
           <div className="text-box">
             <span>May-2024</span>
-            <span style={{ paddingTop: "0.75em" }}>Placement Holder text</span>
+            <span style={{ paddingTop: "0.75em" }}>
+              This was a fun evening. We went around the same time last year
+              maybe should go some time this week as a stress relief from your
+              exams.
+            </span>
           </div>
         </div>
         <div
@@ -62,8 +66,15 @@ const Bradgate = () => {
             />
           </span>
           <div className="text-box">
-            <span>Placement Holder text</span>
-            <span style={{ paddingTop: "0.75em" }}>Placement Holder text</span>
+            <span>
+              Aye we actually did do the drawing challenge atlhough your tree
+              looks alot better and more realistc then mine. Thats expected from
+              my professional artist girlfriend.
+            </span>
+            <span style={{ paddingTop: "0.75em" }}>
+              Some of my favourite photos are from this day you actually look
+              lovely especially with your hair half up and down :)
+            </span>
           </div>
         </div>
         <div>
@@ -75,23 +86,19 @@ const Bradgate = () => {
         >
           <div className="image-container">
             <img
-              src="/images/image1.jpg"
+              src="/images/bradgatealone.jpg"
               alt="park picture front"
               className="custom-img"
             />
-            <img
-              src="/images/.jpg"
-              alt="park picture back"
-              className="custom-img"
-            />
+            <img src="/images/tomato.jpg" alt="tomato" className="custom-img" />
           </div>
           <div className="image-container">
+            <img src="/images/ikea.jpg" alt="ikea" className="custom-img" />
             <img
-              src="/images/.jpg"
+              src="/images/moroccoalone.jpg"
               alt="morocco alone"
               className="custom-img"
             />
-            <img src="/images/.jpg" alt="picture here" className="custom-img" />
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ const Homepage = () => {
         >
           <div className="image-container">
             <img
-              src="/images/image1.jpg"
+              src="/images/bradgatealone.jpg"
               alt="Image 1"
               className="custom-img"
             />
