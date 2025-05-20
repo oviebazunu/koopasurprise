@@ -8,7 +8,7 @@ import OutManchester1 from "./assets/data/OutManchester1";
 import Halloween from "./assets/data/Halloween";
 import Netherlands from "./assets/data/Netherlands";
 import Morocco from "./assets/data/Morocco";
-import Bradgate from "./assets/data/bradgate";
+import Bradgate from "./assets/data/Bradgate";
 
 function App() {
   return (
